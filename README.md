@@ -5,8 +5,8 @@ This repo provides example and common actions that a CSR might use when looking 
 * Calix Cloud
 
 ## Run docker instance
-```docker pull gbrewster/calix-csr-console```
-```docker run -p 9000:9000 gbrewster/calix-csr-console```
+```docker pull dakotasnapshot/calix-csr-console```
+```docker run -p 9000:9000 dakotasnapshot/calix-csr-console```
 
 ## Development
 The project contains two main pieces. Due to CORS on Calix Cloud and browsers, a proxy must be used to pass basic auth header information. The other being a static html file and dependencies. When running in a dev environment, you can use webpack's build in development server. In production, you can use express as a proxy as well as serving the production ui files. 
